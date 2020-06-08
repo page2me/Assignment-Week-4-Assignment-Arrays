@@ -3,7 +3,7 @@
 int main(void) {
   FILE *myFile;
   int n, i, sum=0, max=0;
-  myFile = fopen("somenumbers.txt", "r");
+  myFile = fopen("numbers.txt", "r");
   //printf("Hello World\n");
   fscanf(myFile, "%d,", &n );
   int data[n];
